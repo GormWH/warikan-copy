@@ -1,0 +1,108 @@
+.ticket-accordion-content-wrapper{
+  width: 92%;
+  margin: 0 auto;
+}
+
+.ticket-list-wrapper{
+  border-radius: 5px;
+  border: 1px solid #F0F1F2;
+  font-weight: bold;
+  margin-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.ticket-list-empty-wrapper{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #444444;
+}
+
+.approved-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.approved-label{
+  font-weight: bold;
+}
+
+.accordion-title-wrapper{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.accordion-title-label{
+  width: 90%;
+  clear: both;
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+  font-weight: bold;
+}
+
+.accordion-title-label-title{
+  width: 60%;
+  color: #444444;
+  font-size: 14px;
+}
+
+.accordion-title-label-amount{
+  display: inline;
+  width: 40%;
+  text-align: end;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+}
+
+.button-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.pay{
+  color: #EF7272 !important;
+}
+
+.recieve{
+  color: #50CED6 !important;
+}
+
+.zero{
+  color: #BCBDC1 !important;
+}
+
+.pr-unit{
+  font-size: 9px;
+}
+
+.pr-desc{
+  margin-left: 4px;
+}
+
+.facheckcircle-wrapper{
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.check-hollow{
+  background-color: white;
+  margin-right: 15px;
+  width: 14px;
+  height: 14px;
+  border: solid #50CED6 2px;
+  border-radius: 50%;
+}

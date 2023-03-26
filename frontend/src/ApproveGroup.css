@@ -1,0 +1,50 @@
+.subtitle-wrapper-check{
+    margin-top: 24px;
+}
+
+.content-wrapper{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.group-name-wrapper{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.name-label{
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 75px;
+}
+
+.group-name{
+    font-size: 18px;
+}
+
+.subtitle-wrapper-arrow{
+    margin: 24px 0px 50px 0px;
+}
+
+.page-description{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 12px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.buttons-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,17 @@
+.subtitle-wrapper-check{
+  margin-top: 24px;
+}
+
+.error-message{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.friend-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}

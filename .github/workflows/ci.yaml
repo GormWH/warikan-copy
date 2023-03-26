@@ -1,0 +1,27 @@
+name: CI
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+jobs:
+  deploy-gae:
+    name: App Engine Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Make server/.env file
+        run: |
+          touch server/.env
+          echo "CHANNEL_ACCESS_TOKEN = \"${{ secrets.CHANNEL_ACCESS_TOKEN_SECRET }}\"" >> server/.env
+          echo "CHANNEL_SECRET = \"${{ secrets.CHANNEL_SECRET }}\"" >> server/.env
+          echo "LIFF_BASE_URL  = \"${{ secrets.LIFF_BASE_URL }}\"" >> server/.env
+      - name: Deploy an App Engine app
+        id: deploy-app
+        uses: google-github-actions/deploy-appengine@v0.3.1
+        with:
+          project_id: ${{ secrets.GCP_PROJECT_ID }}
+          # working-directory: server
+          deliverables: server/app.yaml
+          credentials: ${{ secrets.GCP_SA_KEY }}
+          version: v1

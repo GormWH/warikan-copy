@@ -1,0 +1,118 @@
+.ticketbox{
+  margin-top: 30px;
+}
+
+.ticketbox-wrapper{
+  border-radius: 0px 5px 5px 5px;
+  border: 1px solid #F0F1F2;
+  font-weight: bold;
+  margin-bottom: 25px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.ticketbox-tag{
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #50CED6;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 3px 3px 0px 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.ticketbox-title-wrapper{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  width: 65%;
+  border-radius: 20px;
+  margin: 0 auto;
+  border: #50CED6 1px solid;
+  box-sizing: border-box;
+}
+
+.ticketbox-title{
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #50CED6;
+}
+
+.ticketbox-description{
+  font-size: 12px;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 15px;
+  color: #444444;
+  font-weight: normal;
+}
+
+.ticketbox-date{
+  font-size: 12px;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+  color: #444444;
+}
+
+.payment-list-unit{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.payment-list-empty-wrapper{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #444444;
+}
+
+
+
+
+.payment-list-others-wrapper{
+
+}
+
+.payment-list-amount-wrapper{
+  display: flex;
+  align-items: center;
+  height: 36px;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.payment-list-amount{
+  width: 80%;
+  text-align: center;
+  font-size: 22px;
+  color: #444444;
+}
+
+.payment-list-arrow{
+  display: flex;
+  margin-left: 5px;
+}
+
+.payment-list-own-name{
+  width: 75%;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+
+
+.payment-list-image{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}

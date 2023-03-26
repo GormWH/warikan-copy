@@ -1,0 +1,43 @@
+.content-wrapper{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.subtitle-wrapper-check{
+  margin-top: 24px;
+}
+
+.subtitle-wrapper-arrow{
+  margin-top: 65px;
+}
+
+.group-name-wrapper{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 40px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.name-label, .users-label{
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 75px;
+}
+
+.group-name{
+  font-size: 18px;
+}
+
+.button-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.users-wrapper{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 40px;
+  align-items: center;
+}

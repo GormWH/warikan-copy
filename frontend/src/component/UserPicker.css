@@ -1,0 +1,22 @@
+.user-picker{
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.text{
+  margin-left: 12px;
+}
+
+
+.subtitle-wrapper{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.picker-button-wrapper{
+  margin: 30px 0px;
+  display: flex;
+  justify-content: center;
+}

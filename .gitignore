@@ -1,0 +1,4 @@
+server/.venv/
+api-test*.json
+*__pycache__*
+*.json

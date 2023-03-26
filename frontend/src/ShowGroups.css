@@ -1,0 +1,36 @@
+.description{
+  margin: 0 auto;
+  margin-top: 2px;
+  font-size: 12px;
+  background-color: #f8f8f8;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+
+.plain-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  width: 100%;
+  height: 40px;
+  background-color: #f8f8f8;
+  border-radius: 6px;
+}
+
+.text{
+  margin-left: 12px;
+}
+
+.user-icon{
+  font-size: 25px;
+}
+
+.credit-icon{
+  font-size: 22px;
+}
+
+.last-element{
+  margin-bottom: 30px;
+}

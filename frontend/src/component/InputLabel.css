@@ -1,0 +1,33 @@
+.input-label{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-label-text{
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.label-tag{
+
+  width: 34px;
+  height: 20px;
+  border-radius: 3px;
+  border: none;
+  text-align: center;
+  font-size: 10px;
+  line-height: 20px;
+  font-weight: normal;
+  color: white;
+  
+}
+
+.optional{
+  background-color: #BCBDC1;
+}
+
+.required{
+  background-color: #FB9393;
+}

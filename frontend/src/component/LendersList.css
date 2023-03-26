@@ -1,0 +1,37 @@
+.lender-wrapper{
+  border-radius: 3px;
+  border: 1px solid #F0F1F2;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.lenders-list-unit{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cash-wrapper{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.lender-profile-wrapper{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.lender-name{
+  font-size: 14px;
+  margin-left: 6%;
+}
+
+.lender-image{
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  margin-left: 15%;
+}

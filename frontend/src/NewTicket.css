@@ -1,0 +1,161 @@
+.content-wrapper{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.input-label{
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 75px;
+}
+
+.button-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.form-wrapper{
+  margin-top: 40px;
+}
+
+.normal-input, .normal-textarea{
+  width: 100%;
+  font-size: 14px;
+  border: 1px solid #F0F1F2;
+  box-sizing: border-box;
+}
+
+.normal-input{
+  padding: 7px 16px;
+  height: 45px;
+}
+
+
+.normal-textarea{
+  padding: 12px 16px;
+  height: 120px;
+}
+
+.picker-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.label-with-select{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 60px;
+}
+
+.label-text{
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 30px;
+}
+
+.sub-select{
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  margin-left: auto;
+  font-size: 13px;
+  height: 35px;
+  width: 150px;
+  color: #222222;
+  border-radius: 3px;
+  border: 1px solid #F0F1F2;
+  outline: none;
+  text-indent: 10px;
+  background-color: white;
+}
+
+.unit{
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.cash-notice{
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #eb6363;
+}
+
+
+.main-select{
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  margin-left: auto;
+  font-size: 14px;
+  padding: 7px 12px;
+  height: 45px;
+  width: 100%;
+  color: #444444;
+  border-radius: 3px;
+  border: 1px solid #F0F1F2;
+  outline: none;
+  text-indent: 10px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.subtitle-wrapper-check{
+  margin-top: 24px;
+}
+
+.subtitle-wrapper-arrow{
+  margin: 24px 0px 50px 0px;
+}
+
+.ticket-name-wrapper{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 40px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.ticket-name-label{
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 55px;
+}
+
+.ticket-name{
+  font-size: 18px;
+}
+
+.validation-message{
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  color: #eb6363;
+  margin-bottom: 10px;
+}
+
+.form-upload-wrapper{
+  margin-top: 40px;
+}
+
+.custom-file-upload {
+  display: inline-flex;
+  box-direction: normal;
+  flex-direction: column;
+  box-pack: center;
+  justify-content: center;
+  align-items: center;
+  vertical-align: top;
+  width: 100%;
+  font-size: 14px;
+  border: 1px solid #F0F1F2;
+  box-sizing: border-box;
+  background: #F0F1F2;
+  padding: 12px 16px;
+  height: 120px;
+}
+
+input[type="file"] {
+  display: none;
+}
